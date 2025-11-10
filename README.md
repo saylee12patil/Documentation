@@ -10,11 +10,11 @@ apt update
 apt install mariadb-server -y
 ```
 
-## 2. Securing MariaDB
+## 2. Clone the repository
 
 ```shell
 
-mysql_secure_installation
+git clone 
 ```
 
 Follow the prompts to:
