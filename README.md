@@ -6,7 +6,8 @@ Explains how to set up MariaDB, create a database
 Installing MariaDB 
 
 ```shell
-apt update && apt install mariadb-server -y
+apt update
+apt install mariadb-server -y
 ```
 
 ## 2. Securing MariaDB
