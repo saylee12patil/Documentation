@@ -50,6 +50,10 @@ npm run build
 
 ## 5. Deploy production-ready files
 
+```shell
+https://localhost:8080
+```
+
 
 
 
