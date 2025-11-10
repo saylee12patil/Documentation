@@ -45,3 +45,8 @@ vim backend/src/main/resources/application.properties
 ```shell
 mvn clean package
 ```
+
+## 4 : Step 4: Run the Application
+```shell
+http://localhost:8080
+```
