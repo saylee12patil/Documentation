@@ -13,32 +13,25 @@ apt install mariadb-server -y
 ## 2. Clone the repository
 
 ```shell
-
 git clone 
 ```
+## 4. Enter inside database container
+docker exec -it <container_id> bash
 
-Follow the prompts to:
-Set a root password.
-Remove insecure default users and test databases.
-Disable remote root login.
-
-## 3. Setting Up the Database
-
-Open terminal and login to MariaDB:
-
-```bash
-
+## 3. Login to MySQL
 mysql -u root -p
-```
 
-Enter the root password when prompted.
-
-Create a new database and user:
-
-```sql
+## 4.Create database
 CREATE DATABASE student_db;
-GRANT ALL PRIVILEGES ON springbackend.* TO 'username'@'localhost' IDENTIFIED BY 'your_password';
-```
+
+## 5 . Backend connection details
+DB_USER=<your_username>
+DB_PASS=<your_password>
+DB_PORT=3306
+DB_NAME=student_db
+DB_HOST=<database_container_ip>
+
+```shell
 EXIT;
 ```
 
